@@ -24,3 +24,23 @@ O objetivo do exercício é demonstrar o funcionamento técnico de ataques de Ph
 Início da ferramenta com privilégios de superusuário no terminal do Kali Linux:
 ```bash
 sudo setoolkit
+```
+## 📸 Evidências do Laboratório
+
+### Etapa 1: Configuração dos Menus e Escolha do Vetor
+![Configuração Inicial no SET](Screenshot_2026-09-20_18_02_13.png)
+
+### Etapa 2: Seleção do Web Template
+![Seleção do Template Google](Screenshot_2026-09-20_18_02_25.png)
+
+### Etapa 3: Inicialização do Servidor Web na Porta 80
+![Servidor SET Ativo](Screenshot_2026-09-20_18_02_38.png)
+
+### Etapa 4: Acesso à Página Falsa do Google no Navegador
+![Página Cloned do Google](Screenshot_2026-09-20_18_02_50.png)
+
+### Etapa 5: Inserção de Dados Fictícios de Teste
+![Formulário Preenchido](Screenshot_2026-09-20_18_02_59.png)
+
+### Etapa 6: Interceptação e Coleta de Credenciais via POST
+![Credenciais Capturadas no Terminal](Screenshot_2026-09-20_18_04_04.png)
